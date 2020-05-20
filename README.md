@@ -1,5 +1,7 @@
 # Setup
 
+## 作业要求查看 [HOMEWORK.md](./HOMEWORK.md)
+
 ## Start Server
 
 Server started at http://localhost:1234 . Parcel is used for bundler.
