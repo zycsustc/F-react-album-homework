@@ -1,0 +1,19 @@
+.Albums {
+  flex: 1 100%;
+  margin: 60px 60px 60px 0;
+
+  .album {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    background-color: white;
+    cursor: pointer;
+
+    .title {
+      margin: 0;
+      font-weight: 600;
+      font-size: 16px;
+    }
+  }
+}
