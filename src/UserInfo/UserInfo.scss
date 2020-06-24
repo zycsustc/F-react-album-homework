@@ -1,4 +1,45 @@
-.UserInfo {
-  padding-top: 60px;
+#sideUserInfo {
+  float: right;
   width: 400px;
 }
+
+.UserInfo {
+  padding-top: 100px;
+  width: 400px;
+  position: fixed;
+
+  & > p{
+    font-size: larger;
+    color: #888888;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .userInfo__title{
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+  }
+
+  .userInfo__detail {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+
+    .userInfo__detail__content{
+      font-size: larger;
+      color: #0095f6;
+    }
+
+    .userInfo__detail__title {
+      display: inline;
+    }
+
+    .not__selectable{
+      color: black;
+    }
+  }
+}
+
+

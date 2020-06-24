@@ -1,0 +1,31 @@
+.photos {
+  //padding: 20px;
+  //border: 1px solid #ccc;
+  //border-radius: 4px;
+  //margin-bottom: 20px;
+  //background-color: white;
+  //cursor: pointer;
+
+  .title {
+    margin: 0;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .album__photos {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    & > div > img {
+      border-radius: 10px 10px;
+    }
+
+    & > div > p{
+      width: 150px;
+      text-align: justify;
+    }
+  }
+}
+
+
